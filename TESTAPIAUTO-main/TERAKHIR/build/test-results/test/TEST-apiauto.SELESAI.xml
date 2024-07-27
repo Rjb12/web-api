@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="apiauto.SELESAI" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-07-27T05:27:57" hostname="213130340006" time="2.852">
+  <properties/>
+  <testcase name="testBoundaryScenario" classname="apiauto.SELESAI" time="2.338"/>
+  <testcase name="testNegativeScenario" classname="apiauto.SELESAI" time="0.178"/>
+  <testcase name="testPositiveScenario" classname="apiauto.SELESAI" time="0.332"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
