@@ -1,10 +1,40 @@
-Script di atas adalah contoh penggunaan framework RestAssured untuk mengotomatisasi pengujian API dengan menggunakan TestNG sebagai framework testing.
+Cara Build Proyek di IntelliJ IDEA dengan Gradle
+Membuat Proyek Baru
 
-Pada script tersebut, terdapat tiga metode pengujian yang mencakup berbagai skenario:
+Tujuan: Membuat proyek dengan struktur dan konfigurasi yang tepat.
+Langkah-langkah:
+Pilih "New Project" di IntelliJ IDEA.
+Pilih "Gradle" dan "Java".
+Isi nama proyek dan pilih direktori penyimpanan.
+Mengonfigurasi build.gradle
 
-testPositiveScenario: Melakukan pengujian pada respons yang benar dengan input yang benar.
-testNegativeScenario: Melakukan pengujian pada respons yang salah dengan input yang salah.
-testBoundaryScenario: Melakukan pengujian pada edge cases yang berbeda.
-Setiap metode pengujian menggunakan RestAssured untuk membuat request API dengan berbagai header yang diperlukan. Kemudian, kode status response diperiksa dan beberapa assertion ditambahkan sesuai kebutuhan.
+Tujuan: Menentukan dependensi, plugin, dan konfigurasi build.
+Langkah-langkah:
+Tambahkan dependensi yang diperlukan di bagian dependencies.
+Konfigurasikan penggunaan TestNG dengan useTestNG().
+Mengimpor Proyek ke IntelliJ IDEA
 
-Untuk menggunakan script tersebut, pastikan telah mengatur dependensi yang diperlukan, seperti RestAssured dan TestNG, dalam proyek. Selanjutnya, jalankan masing-masing metode pengujian sesuai kebutuhan untuk menguji API yang ditentukan.
+Tujuan: Mengimpor proyek dan mengunduh semua dependensi.
+Langkah-langkah:
+Sinkronisasi proyek dengan Gradle.
+Menulis Kode
+
+Tujuan: Mengimplementasikan logika aplikasi atau tes.
+Langkah-langkah:
+Buat paket dan kelas, lalu tulis kode tes.
+Menjalankan Pengujian
+
+Tujuan: Memverifikasi bahwa kode bekerja dengan benar.
+Langkah-langkah:
+Jalankan pengujian melalui IntelliJ IDEA atau terminal.
+Membuat dan Menjalankan Build
+
+Tujuan: Mengemas aplikasi dan mengotomatiskan pengujian.
+Langkah-langkah:
+Jalankan task build dari IntelliJ IDEA atau terminal (./gradlew build).
+Memeriksa Hasil Build dan Pengujian
+
+Tujuan: Memastikan semua pengujian lulus dan build berhasil.
+Langkah-langkah:
+Tinjau hasil pengujian dan perbaiki jika ada masalah.
+Proses ini membantu memastikan kualitas kode dan mendeteksi bug atau masalah pada API sejak dini, yang penting untuk menjaga stabilitas dan keandalan aplikasi.
